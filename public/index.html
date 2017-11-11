@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="main.js" ></script>
+
+</head>
+<body>
+
+    <div class="calculator">
+        <!-- CALCULATOR FORM -->
+                  <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <input class="calculator__display" id="display" type="text" disabled />
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="9" class="btn button btn-outline-danger" onclick="calc(9)"> 9 </button>
+                <button type="button" value="8" class="btn button btn-outline-danger" onclick="calc(8)"> 8 </button>
+                <button type="button" value="7" class="btn button btn-outline-danger" onclick="calc(7)"> 7 </button>
+                <button type="button" value="+" class="btn button btn-outline-success" onclick="calc('+')"> + </button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="6" class="btn button btn-outline-danger" onclick="calc(6)"> 6 </button>
+                <button type="button" value="5" class="btn button btn-outline-danger" onclick="calc(5)"> 5 </button>
+                <button type="button" value="4" class="btn button btn-outline-danger" onclick="calc(4)"> 4 </button>
+                <button type="button" value="-" class="btn button btn-outline-success" onclick="calc('-')"> - </button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="3" class="btn button btn-outline-danger" onclick="calc(3)"> 3 </button>
+                <button type="button" value="2" class="btn button btn-outline-danger" onclick="calc(2)"> 2 </button>
+                <button type="button" value="1" class="btn button btn-outline-danger" onclick="calc(1)"> 1 </button>
+                <button type="button" value="*" class="btn button btn-outline-success" onclick="calc('*')"> * </button>
+            </div>
+            <!-- CALCULATOR ROW -->
+            <div class="calculator__row">
+                <button type="button" value="." class="btn button btn-outline-success" onclick="calc('.')"> . </button>
+                <button type="button" value="0" class="btn button btn-outline-danger" onclick="calc(0)"> 0 </button>
+                <button type="button" value="=" class="btn button btn-outline-success" onclick="calc('=')"> = </button>
+                <button type="button" value="/" class="btn button btn-outline-success" onclick="calc('/')"> / </button>
+            </div>
+            <div class="calculator__row">
+                <button type="button" value="/" class="btn reset btn-outline-warning" onclick="calc('c')"> reset </button>
+            </div>
+
+    </div>
+</body>
+</html>
